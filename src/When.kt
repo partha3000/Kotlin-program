@@ -12,4 +12,18 @@ fun main () {
         else -> "Invalid Day"
     }
     println(result)
+    class Data(args: Array<String>){
+        val a = -9
+        val b = -11
+
+        val max = if (a > b) {
+            println("$a is larger than $b.")
+            println("max variable holds value of a.")
+            a
+        } else {
+            println("$b is larger than $a.")
+            println("max variable holds value of b.")
+            b
+        }
+    }
 }
